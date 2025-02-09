@@ -34,4 +34,4 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           DEPARTMENTS: ${{ secrets.DEPARTMENTS }} 
         run: |
-          python your_script.py
+          python scraper1.py
